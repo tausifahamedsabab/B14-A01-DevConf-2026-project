@@ -131,3 +131,31 @@ padding: 4px 10px;
     padding: 4px 10px;
 }
 /* speakers part end */
+
+.price-title {
+    text-align: center;
+    padding: 10px;
+}
+.price-title h1{
+    font-size: 55px;
+    padding: 20px;
+}
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+ul {
+  list-style-position: inside;
+}
+.dot-list li {
+color: #2563EB;
+}
+
+.first-card{
+ border: 1px solid rgb(229, 229, 229);
+ border-radius: 10px;
+
+}
