@@ -93,10 +93,10 @@ ul li a {
     padding: 80px;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     margin-bottom: 50px;
-font-size: 48px;
+    font-size: 48px;
 }
 
 .speakers-grid {
@@ -106,56 +106,132 @@ font-size: 48px;
 }
 
 .speakers-card {
-background-color: white;
-border: 1px solid #e0e0e0;
-border-radius: 6px;
-overflow: hidden;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
 }
-.speaker-img img{
-object-fit: cover;    
+
+.speaker-img img {
+    object-fit: cover;
 
 }
 
-.speaker-tag{
-color: #2563EB;
-font-size: 12px;
-padding: 10px 10px;
-font-weight: bold;
+.speaker-tag {
+    color: #2563EB;
+    font-size: 12px;
+    padding: 10px 10px;
+    font-weight: bold;
 }
 
 .speaker-name {
-padding: 4px 10px;
+    padding: 4px 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
 
-.speaker-title{
+.speaker-title {
     padding: 4px 10px;
+    padding-bottom: 24px;
 }
+
 /* speakers part end */
+
+/* price card start */
 
 .price-title {
     text-align: center;
     padding: 10px;
 }
-.price-title h1{
+
+.price-title h1 {
     font-size: 55px;
     padding: 20px;
 }
+
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 50px;
     margin-top: 40px;
-    
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 ul {
-  list-style-position: inside;
-}
-.dot-list li {
-color: #2563EB;
+    list-style-position: inside;
 }
 
-.first-card{
- border: 1px solid rgb(229, 229, 229);
- border-radius: 10px;
+.dot-list li::marker {
+    color: #2563EB;
+}
+
+.first-card {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    padding: 30px;
 
 }
+
+.first-card h1 , .second-card h1 , .third-card h1 {
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.horizon{margin-bottom: 18px;}
+.first-card li , .second-card li , .third-card li {padding: 4px;}
+.people {font-weight: 200;padding-bottom: 20px;}
+
+.first-card-btn {
+    width: 100%;
+    background-color: transparent;
+    color: #2563EB;
+    border: 1px solid#2563EB;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.second-card {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    color: white;
+    padding: 30px;
+}
+
+.second-card-btn{
+    width: 100%;
+    background-color: #2563EB;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.pro {
+    color: #93C5FD;
+}
+
+.third-card {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+.third-card-btn {
+    width: 100%;
+    background-color: #f0f0f0;
+    color: black;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+/* price card end */
