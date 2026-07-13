@@ -118,7 +118,7 @@ ul li a {
 
 .speaker-img img {
     object-fit: cover;
-
+    width: 100%;
 }
 
 .speaker-tag {
@@ -172,6 +172,8 @@ ul {
 }
 
 .first-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgb(229, 229, 229);
     border-radius: 10px;
     padding: 30px;
@@ -202,13 +204,15 @@ ul {
 
 .first-card-btn {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     color: #2563EB;
     border: 1px solid#2563EB;
     padding: 12px 24px;
     border-radius: 10px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: auto;
     cursor: pointer;
 }
 
@@ -217,6 +221,8 @@ ul {
 }
 
 .second-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgb(229, 229, 229);
     border-radius: 10px;
     background-color: #0D1B2A;
@@ -226,13 +232,15 @@ ul {
 
 .second-card-btn {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #2563EB;
     color: white;
     border-radius: 10px;
     padding: 12px 24px;
     border: none;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: auto;
     cursor: pointer;
 }
 
@@ -245,6 +253,8 @@ ul {
 }
 
 .third-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgb(229, 229, 229);
     border-radius: 10px;
     background-color: #f0f0f0;
@@ -258,7 +268,7 @@ ul {
     border-radius: 10px;
     padding: 12px 24px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: auto;
     cursor: pointer;
 }
 
