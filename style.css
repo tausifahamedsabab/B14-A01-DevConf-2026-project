@@ -9,14 +9,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
 }
 
 /* nav style start */
-.nav-full-background {
-    background-color: #FFFFFF;
-}
 
 .nav-links {
     display: flex;
@@ -25,7 +23,6 @@
     gap: 35px;
     align-items: center;
     font-size: large;
-
 }
 
 ul li a {
@@ -51,7 +48,7 @@ ul li a {
 
 /* nav style end */
 
-/* hero section style */
+/* hero section style start*/
 .hero-section {
     background-image: url('./images/banner.jpg');
     position: relative;
@@ -64,22 +61,6 @@ ul li a {
     text-align: center;
 }
 
-.hero-content {
-    color: #FFFFFF;
-    z-index: 2;
-    max-width: 700px;
-    font-size: large;
-}
-
-.hero-content h1 {
-    font-size: 64px;
-    margin-bottom: 30px;
-}
-
-.hero-content p {
-    margin-bottom: 450px;
-}
-
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -89,6 +70,29 @@ ul li a {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
 }
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    color: #FFFFFF;
+    max-width: 700px;
+    font-size: large;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.register-btn {
+    margin-top: auto;
+}
+
+/* hero section style end */
 
 /* speakers part start */
 .speakers-section {
@@ -171,14 +175,6 @@ ul {
     color: #2563EB;
 }
 
-.first-card {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(229, 229, 229);
-    border-radius: 10px;
-    padding: 30px;
-
-}
 
 .first-card h1,
 .second-card h1,
@@ -202,12 +198,19 @@ ul {
     padding-bottom: 20px;
 }
 
+.first-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+    padding: 30px;
+
+}
 .first-card-btn {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    color: #2563EB;
     border: 1px solid#2563EB;
     padding: 12px 24px;
     border-radius: 10px;
@@ -369,7 +372,7 @@ ul {
 
 .footer-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .footer-left {
@@ -378,9 +381,8 @@ ul {
 }
 
 .footer-divider {
-    border: 0;
     border-top: 1px solid#353840;
-    margin: 8px 0;
+    margin: 1px;
 }
 
 .footer-bottom {
