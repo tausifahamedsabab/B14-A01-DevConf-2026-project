@@ -44,6 +44,9 @@ ul li a {
     border: none;
     cursor: pointer;
 }
+.register-btn:hover {
+  background-color: #4338ca;
+}
 
 /* nav style end */
 
@@ -205,6 +208,11 @@ ul {
     border-radius: 10px;
     font-weight: 600;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+.first-card-btn:hover {
+    background-color: #dadbe6;
 }
 
 .second-card {
@@ -224,6 +232,11 @@ ul {
     border: none;
     font-weight: 600;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+.second-card-btn:hover {
+    background-color: #243566;
 }
 
 .pro {
@@ -245,6 +258,10 @@ ul {
     padding: 12px 24px;
     font-weight: 600;
     margin-top: 50px;
+    cursor: pointer;
+}
+.third-card-btn:hover {
+    background-color: #656669;
 }
 
 /* price card end */
@@ -365,5 +382,6 @@ ul {
 .policy-links {
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 /* footer end */
