@@ -299,7 +299,7 @@ ul {
 }
 
 .quote-container {
-    background-color: #0D1B2A;
+    background-color: #353738;
     color: white;
     padding: 50px 115px;
     border-radius: 20px;
@@ -329,3 +329,41 @@ ul {
 .waitlist-btn:hover {
   background-color: #4338ca;
 }
+
+.hackathon-section{
+    padding-bottom: 50px;
+}
+
+/* footer start */
+.footer {
+    background-color: #0D1B2A;
+    color: #a0a0a0;
+    padding: 10px;
+}
+ .footer-container {
+    max-width: 1500px;
+    margin: 0 auto;
+ }
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid#353840;
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.policy-links {
+    display: flex;
+    gap: 20px;
+}
+/* footer end */
