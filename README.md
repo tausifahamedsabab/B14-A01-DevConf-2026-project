@@ -8,10 +8,10 @@ A sleek, fully responsive landing page built for **DevConf 2026**, a premier dev
 
 ## 📸 Screenshot
 
-![DevConf Screenshot 1](./images/sspro1.jpg)
-![DevConf Screenshot 2](./images/sspro2.jpg)
-![DevConf Screenshot 3](./images/sspro3.jpg)
-![DevConf Screenshot 4](./images/sspro4.jpg)
+![DevConf Screenshot 1](./images/sspro1.png)
+![DevConf Screenshot 2](./images/sspro2.png)
+![DevConf Screenshot 3](./images/sspro3.png)
+![DevConf Screenshot 4](./images/sspro4.png)
 
 ---
 
